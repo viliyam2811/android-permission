@@ -34,7 +34,8 @@
   
 <code>
   
-<h3>Step 4: . Add code in MainActivity.java</h3>
+<h3>Step 4: Add code in <b>MainActivity.java</b></h3>
+  
 <code>
 package com.example.getperm;
 
