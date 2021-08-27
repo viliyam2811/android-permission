@@ -14,7 +14,7 @@ Add permission in AndroidManifest.xml file
         android:minSdkVersion="12"
         android:targetSdkVersion="27" />
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -63,17 +63,17 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
   
-    private int STORAGE_PERMISSION_CODE = 1;
+    private int CONTACTS_PERMISSION_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) { 
+        if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) { 
             Toast.makeText(MainActivity.this, "You have already granted this permission!", Toast.LENGTH_SHORT).show(); 
         } else { 
-            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE); 
+            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.READ_CONTACTS}, CONTACTS_PERMISSION_CODE); 
         }
     }
 }
