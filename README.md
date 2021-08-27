@@ -1,9 +1,8 @@
-Prompt for Permission in Android app
-Create one project in Android Studio.
-give name Getperm
-give package name com.exapmle.getperm
+<h1>Prompt for Permission in Android app</h1>
+<h3>Step 1: Create project in Android Studio. give name <b>Getperm</b></h3>
+<h3>Step 2: Give package name <b>com.exapmle.getperm</b>
 
-Add permission in AndroidManifest.xml file
+<h3Step 3: Add <b>READ_CONTACTS</b> permission in AndroidManifest.xml file</h3>
 <code>
   
   <?xml version="1.0" encoding="utf-8"?>
@@ -35,7 +34,7 @@ Add permission in AndroidManifest.xml file
   
 <code>
   
-2. Add code in MainActivity.java
+<h3>Step 4: . Add code in MainActivity.java</h3>
 <code>
 package com.example.getperm;
 
@@ -78,3 +77,4 @@ public class MainActivity extends Activity {
     }
 }
 </code>
+<h3>Step 5: Save and Run </h3>
