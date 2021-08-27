@@ -2,7 +2,7 @@
 <h3>Step 1: Create project in Android Studio. give name <b>Getperm</b></h3>
 <h3>Step 2: Give package name <b>com.exapmle.getperm</b>
 
-<h3Step 3: Add <b>READ_CONTACTS</b> permission in AndroidManifest.xml file</h3>
+<h3>Step 3: Add <b>READ_CONTACTS</b> permission in AndroidManifest.xml file</h3>
 <code>
   
   <?xml version="1.0" encoding="utf-8"?>
